@@ -1,0 +1,8 @@
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\IdentityManager\IdentityProvider\obj\Debug\netcoreapp2.0\IdentityProvider.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\IdentityManager\IdentityProvider\obj\Debug\netcoreapp2.0\IdentityProvider.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\IdentityManager\IdentityProvider\obj\Debug\netcoreapp2.0\IdentityProvider.AssemblyInfo.cs
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\IdentityManager\IdentityProvider\bin\Debug\netcoreapp2.0\IdentityProvider.deps.json
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\IdentityManager\IdentityProvider\bin\Debug\netcoreapp2.0\IdentityProvider.runtimeconfig.json
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\IdentityManager\IdentityProvider\bin\Debug\netcoreapp2.0\IdentityProvider.runtimeconfig.dev.json
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\IdentityManager\IdentityProvider\bin\Debug\netcoreapp2.0\IdentityProvider.dll
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\IdentityManager\IdentityProvider\obj\Debug\netcoreapp2.0\IdentityProvider.csprojResolveAssemblyReference.cache
