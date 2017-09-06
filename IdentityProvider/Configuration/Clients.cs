@@ -197,7 +197,6 @@ namespace IdentityProvider.Configuration
                     ClientId = "MVC_Client_Hybrid_Client_ID",
                     ClientName = "MVC Client Hybrid",
                     ClientUri = "https://localhost:44305/",
-
                     ClientSecrets =  
                     {
                         new Secret("secret".Sha256())
@@ -205,7 +204,6 @@ namespace IdentityProvider.Configuration
                     
                     AllowedGrantTypes = GrantTypes.Hybrid,
                     AllowAccessTokensViaBrowser = false,
-
                     RedirectUris = { "https://localhost:44305/signin-oidc" },
                     LogoutUri = "https://localhost:44305/signout-oidc",
                     PostLogoutRedirectUris = { "https://localhost:44305/signout-callback-oidc" },
@@ -217,6 +215,7 @@ namespace IdentityProvider.Configuration
                         IdentityServerConstants.StandardScopes.OpenId,
                         IdentityServerConstants.StandardScopes.Profile,
                         IdentityServerConstants.StandardScopes.Email,
+                        "roles",
                         "api1", "api2.read_only"
                     },
 

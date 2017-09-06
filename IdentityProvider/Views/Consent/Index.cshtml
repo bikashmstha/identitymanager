@@ -18,6 +18,25 @@
         <div class="col-sm-8">
             @Html.Partial("_ValidationSummary")
 
+
+
+
+@*              ROLE based        ROLE based        ROLE based        ROLE based        ROLE based
+
+                @if (User.IsInRole("User"))
+                {
+
+                }
+                ROLE based        ROLE based        ROLE based        ROLE based        ROLE based        ROLE based
+
+                ALSO SPECIFY ANNOTATION ABOVE THE ACTION METHOD IN THE CONTROLLER
+
+                [Authorize(Roles = "User")]
+
+                ROLE based        ROLE based        ROLE based        ROLE based        ROLE based        ROLE based
+*@
+                
+
             <form asp-action="Index" class="consent-form">
                 <input type="hidden" asp-for="ReturnUrl" />
 

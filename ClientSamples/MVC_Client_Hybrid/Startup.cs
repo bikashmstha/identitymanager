@@ -40,9 +40,8 @@ namespace MVC_Client_Hybrid
             app.UseCookieAuthentication(new CookieAuthenticationOptions
             {
                 AuthenticationScheme = "Cookies",
-
                 AutomaticAuthenticate = true,
-
+              //  AccessDeniedPath = "____IF___ANY____",
                 ExpireTimeSpan = TimeSpan.FromMinutes(60),
                 CookieName = "MVC_Client_Hybrid_Client_ID"
             });
@@ -53,24 +52,19 @@ namespace MVC_Client_Hybrid
             {
                 AuthenticationScheme = "oidc",
                 SignInScheme = "Cookies",
-
                 Authority = Constants.Authority,
                 RequireHttpsMetadata = false,
-
                 ClientId = "MVC_Client_Hybrid_Client_ID",
                 ClientSecret = "secret",
-                
                 ResponseType = "code id_token",
-                Scope = { "openid", "profile", "email", "api1", "offline_access" },
+                Scope = { "openid", "profile", "email","roles", "api1", "offline_access" },
                 GetClaimsFromUserInfoEndpoint = true,
-
                 SaveTokens = true,
-
                 TokenValidationParameters = new TokenValidationParameters
-                {
-                    NameClaimType = JwtClaimTypes.Name,
-                    RoleClaimType = JwtClaimTypes.Role,
-                }
+                                            {
+                                                NameClaimType = JwtClaimTypes.Name,
+                                                RoleClaimType = JwtClaimTypes.Role,
+                                            }
             });
 
             app.UseMvcWithDefaultRoute();

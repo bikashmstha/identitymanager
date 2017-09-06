@@ -17,6 +17,7 @@ namespace IdentityProvider.Configuration
                 Claims = 
                 {
                     new Claim(JwtClaimTypes.Name, "Shubham Patil"),
+                    new Claim(JwtClaimTypes.Role, "User"),
                     new Claim(JwtClaimTypes.GivenName, "Shubham"),
                     new Claim(JwtClaimTypes.FamilyName, "Patil"),
                     new Claim(JwtClaimTypes.Email, "shubhampatil@gmail.com"),
@@ -29,6 +30,7 @@ namespace IdentityProvider.Configuration
                 Claims = 
                 {
                     new Claim(JwtClaimTypes.Name, "Sagar Aradwad"),
+                    new Claim(JwtClaimTypes.Role, "User"),
                     new Claim(JwtClaimTypes.GivenName, "Sagar"),
                     new Claim(JwtClaimTypes.FamilyName, "Aradwad"),
                     new Claim(JwtClaimTypes.Email, "sagararadwad@gmail.com"),
