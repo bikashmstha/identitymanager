@@ -1,0 +1,5 @@
+C:\Users\shubhamp.GIST\Documents\GitHub\identitymanager\MVC_Client_Hybrid\bin\Debug\netcoreapp2.0\Constants.dll
+C:\Users\shubhamp.GIST\Documents\GitHub\identitymanager\MVC_Client_Hybrid\obj\Debug\netcoreapp2.0\MVC_Client_Hybrid.csprojResolveAssemblyReference.cache
+C:\Users\shubhamp.GIST\Documents\GitHub\identitymanager\MVC_Client_Hybrid\obj\Debug\netcoreapp2.0\MVC_Client_Hybrid.csproj.CoreCompileInputs.cache
+C:\Users\shubhamp.GIST\Documents\GitHub\identitymanager\MVC_Client_Hybrid\obj\Debug\netcoreapp2.0\MVC_Client_Hybrid.AssemblyInfoInputs.cache
+C:\Users\shubhamp.GIST\Documents\GitHub\identitymanager\MVC_Client_Hybrid\obj\Debug\netcoreapp2.0\MVC_Client_Hybrid.AssemblyInfo.cs

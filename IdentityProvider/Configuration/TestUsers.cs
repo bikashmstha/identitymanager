@@ -13,28 +13,28 @@ namespace IdentityProvider.Configuration
     {
         public static List<TestUser> Users = new List<TestUser>
         {
-            new TestUser{SubjectId = "818727", Username = "alice", Password = "alice", 
+            new TestUser{SubjectId = "12345", Username = "shubham", Password = "shubham", 
                 Claims = 
                 {
-                    new Claim(JwtClaimTypes.Name, "Alice Smith"),
-                    new Claim(JwtClaimTypes.GivenName, "Alice"),
-                    new Claim(JwtClaimTypes.FamilyName, "Smith"),
-                    new Claim(JwtClaimTypes.Email, "AliceSmith@email.com"),
+                    new Claim(JwtClaimTypes.Name, "Shubham Patil"),
+                    new Claim(JwtClaimTypes.GivenName, "Shubham"),
+                    new Claim(JwtClaimTypes.FamilyName, "Patil"),
+                    new Claim(JwtClaimTypes.Email, "shubhampatil@gmail.com"),
                     new Claim(JwtClaimTypes.EmailVerified, "true", ClaimValueTypes.Boolean),
-                    new Claim(JwtClaimTypes.WebSite, "http://alice.com"),
-                    new Claim(JwtClaimTypes.Address, @"{ 'street_address': 'One Hacker Way', 'locality': 'Heidelberg', 'postal_code': 69118, 'country': 'Germany' }", IdentityServer4.IdentityServerConstants.ClaimValueTypes.Json)
+                    new Claim(JwtClaimTypes.WebSite, "http://shubhampatil.com"),
+                    new Claim(JwtClaimTypes.Address, @"{ 'street_address': 'Street Adress', 'locality': 'Locality', 'postal_code': 480108, 'country': 'India' }", IdentityServer4.IdentityServerConstants.ClaimValueTypes.Json)
                 }
             },
-            new TestUser{SubjectId = "88421113", Username = "bob", Password = "bob", 
+            new TestUser{SubjectId = "67890", Username = "sagar", Password = "sagar", 
                 Claims = 
                 {
-                    new Claim(JwtClaimTypes.Name, "Bob Smith"),
-                    new Claim(JwtClaimTypes.GivenName, "Bob"),
-                    new Claim(JwtClaimTypes.FamilyName, "Smith"),
-                    new Claim(JwtClaimTypes.Email, "BobSmith@email.com"),
+                    new Claim(JwtClaimTypes.Name, "Sagar Aradwad"),
+                    new Claim(JwtClaimTypes.GivenName, "Sagar"),
+                    new Claim(JwtClaimTypes.FamilyName, "Aradwad"),
+                    new Claim(JwtClaimTypes.Email, "sagararadwad@gmail.com"),
                     new Claim(JwtClaimTypes.EmailVerified, "true", ClaimValueTypes.Boolean),
-                    new Claim(JwtClaimTypes.WebSite, "http://bob.com"),
-                    new Claim(JwtClaimTypes.Address, @"{ 'street_address': 'One Hacker Way', 'locality': 'Heidelberg', 'postal_code': 69118, 'country': 'Germany' }", IdentityServer4.IdentityServerConstants.ClaimValueTypes.Json),
+                    new Claim(JwtClaimTypes.WebSite, "http://sagararadwad.com"),
+                    new Claim(JwtClaimTypes.Address, @"{ 'street_address': 'Street Adress', 'locality': 'Locality', 'postal_code': 480108, 'country': 'India' }", IdentityServer4.IdentityServerConstants.ClaimValueTypes.Json),
                     new Claim("location", "somewhere")
                 }
             }

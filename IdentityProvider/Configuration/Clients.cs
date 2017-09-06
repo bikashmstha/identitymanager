@@ -194,12 +194,11 @@ namespace IdentityProvider.Configuration
                 //////////////////////////////////////////
                 new Client
                 {
-                    ClientId = "mvc.hybrid",
-                    ClientName = "MVC Hybrid",
-                    ClientUri = "http://identityserver.io",
-                    //LogoUri = "https://pbs.twimg.com/profile_images/1612989113/Ki-hanja_400x400.png",
+                    ClientId = "MVC_Client_Hybrid_Client_ID",
+                    ClientName = "MVC Client Hybrid",
+                    ClientUri = "https://localhost:44305/",
 
-                    ClientSecrets = 
+                    ClientSecrets =  
                     {
                         new Secret("secret".Sha256())
                     },
@@ -207,9 +206,9 @@ namespace IdentityProvider.Configuration
                     AllowedGrantTypes = GrantTypes.Hybrid,
                     AllowAccessTokensViaBrowser = false,
 
-                    RedirectUris = { "http://localhost:21402/signin-oidc" },
-                    LogoutUri = "http://localhost:21402/signout-oidc",
-                    PostLogoutRedirectUris = { "http://localhost:21402/signout-callback-oidc" },
+                    RedirectUris = { "https://localhost:44305/signin-oidc" },
+                    LogoutUri = "https://localhost:44305/signout-oidc",
+                    PostLogoutRedirectUris = { "https://localhost:44305/signout-callback-oidc" },
 
                     AllowOfflineAccess = true,
 
@@ -219,7 +218,9 @@ namespace IdentityProvider.Configuration
                         IdentityServerConstants.StandardScopes.Profile,
                         IdentityServerConstants.StandardScopes.Email,
                         "api1", "api2.read_only"
-                    }
+                    },
+
+                //   AlwaysIncludeUserClaimsInIdToken = true
                 },
 
                 ///////////////////////////////////////////

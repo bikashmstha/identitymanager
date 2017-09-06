@@ -20,6 +20,7 @@ namespace IdentityProvider
             services.AddMvc();
 
             services.AddIdentityServer()
+                .AddTemporarySigningCredential()
                 .AddInMemoryClients(Clients.Get())
                 .AddInMemoryIdentityResources(Resources.GetIdentityResources())
                 .AddInMemoryApiResources(Resources.GetApiResources())

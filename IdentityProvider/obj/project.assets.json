@@ -9976,7 +9976,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {}
+    "C:\\Users\\shubhamp.GIST\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -9984,14 +9984,14 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\Documents\\Visual Studio 2017\\Projects\\IdentityManager\\IdentityProvider\\IdentityProvider.csproj",
+      "projectUniqueName": "C:\\Users\\shubhamp.GIST\\Documents\\GitHub\\identitymanager\\IdentityProvider\\IdentityProvider.csproj",
       "projectName": "IdentityProvider",
-      "projectPath": "C:\\Users\\Admin\\Documents\\Visual Studio 2017\\Projects\\IdentityManager\\IdentityProvider\\IdentityProvider.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\Documents\\Visual Studio 2017\\Projects\\IdentityManager\\IdentityProvider\\obj\\",
+      "projectPath": "C:\\Users\\shubhamp.GIST\\Documents\\GitHub\\identitymanager\\IdentityProvider\\IdentityProvider.csproj",
+      "packagesPath": "C:\\Users\\shubhamp.GIST\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\shubhamp.GIST\\Documents\\GitHub\\identitymanager\\IdentityProvider\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\shubhamp.GIST\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -10000,7 +10000,6 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {},
-        "C:\\Users\\Admin\\.dotnet\\NuGetFallbackFolder": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
