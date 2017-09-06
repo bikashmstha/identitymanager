@@ -1,5 +1,5 @@
-﻿// Copyright (c) Brock Allen & Dominick Baier. All rights reserved.
-// Licensed under the Apache License, Version 2.0. See LICENSE in the project root for license information.
+﻿ 
+ 
 
 
 using IdentityModel;
@@ -41,30 +41,27 @@ namespace IdentityProvider.Configuration
                 {
                     Name = "api2",
 
-                    ApiSecrets =
-                    {
-                        new Secret("secret".Sha256())
-                    },
+                    ApiSecrets =    {
+                                        new Secret("secret".Sha256())
+                                    },
 
-                    UserClaims =
-                    {
-                        JwtClaimTypes.Name,
-                        JwtClaimTypes.Email
-                    },
+                    UserClaims =    {
+                                        JwtClaimTypes.Name,
+                                        JwtClaimTypes.Email
+                                    },
 
-                    Scopes =
-                    {
-                        new Scope()
-                        {
-                            Name = "api2.full_access",
-                            DisplayName = "Full access to API 2"
-                        },
-                        new Scope
-                        {
-                            Name = "api2.read_only",
-                            DisplayName = "Read only access to API 2"
-                        }
-                    }
+                    Scopes =        {
+                                        new Scope()
+                                        {
+                                            Name = "api2.full_access",
+                                            DisplayName = "Full access to API 2"
+                                        },
+                                        new Scope
+                                        {
+                                            Name = "api2.read_only",
+                                            DisplayName = "Read only access to API 2"
+                                        }
+                                    }
                 }
             };
         }

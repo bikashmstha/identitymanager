@@ -10,7 +10,7 @@ using Microsoft.AspNetCore.Http;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace IdentityServer4.Quickstart.UI
+namespace IdentityProvider.Quickstart
 {
     public class AccountService
     {

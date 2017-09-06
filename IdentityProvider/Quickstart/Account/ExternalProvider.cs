@@ -2,7 +2,7 @@
  
 
 
-namespace IdentityServer4.Quickstart.UI
+namespace IdentityProvider.Quickstart
 {
     public class ExternalProvider
     {
