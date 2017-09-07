@@ -40,6 +40,8 @@ namespace MvcHybrid.Controllers
             //client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", token);
 
             var response = await client.GetStringAsync("api/values");
+
+           
             ViewBag.Json = JArray.Parse(response).ToString();
 
             return View();
