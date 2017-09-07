@@ -6,3 +6,4 @@ C:\Users\shubhamp.GIST\Documents\GitHub\identitymanager\ClientSamples\Constants\
 C:\Users\shubhamp.GIST\Documents\GitHub\identitymanager\ClientSamples\Constants\obj\Debug\netcoreapp1.1\Constants.AssemblyInfo.cs
 C:\Users\shubhamp.GIST\Documents\GitHub\identitymanager\ClientSamples\Constants\obj\Debug\netcoreapp1.1\Constants.dll
 C:\Users\shubhamp.GIST\Documents\GitHub\identitymanager\ClientSamples\Constants\obj\Debug\netcoreapp1.1\Constants.pdb
+C:\Users\shubhamp.GIST\Documents\GitHub\identitymanager\ClientSamples\Constants\obj\Debug\netcoreapp1.1\Constants.csprojResolveAssemblyReference.cache

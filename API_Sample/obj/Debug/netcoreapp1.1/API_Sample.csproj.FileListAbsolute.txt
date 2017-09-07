@@ -1,0 +1,13 @@
+C:\Users\shubhamp.GIST\Documents\GitHub\identitymanager\API_Sample\bin\Debug\netcoreapp1.1\API_Sample.deps.json
+C:\Users\shubhamp.GIST\Documents\GitHub\identitymanager\API_Sample\bin\Debug\netcoreapp1.1\API_Sample.runtimeconfig.json
+C:\Users\shubhamp.GIST\Documents\GitHub\identitymanager\API_Sample\bin\Debug\netcoreapp1.1\API_Sample.runtimeconfig.dev.json
+C:\Users\shubhamp.GIST\Documents\GitHub\identitymanager\API_Sample\bin\Debug\netcoreapp1.1\API_Sample.dll
+C:\Users\shubhamp.GIST\Documents\GitHub\identitymanager\API_Sample\obj\Debug\netcoreapp1.1\API_Sample.csprojResolveAssemblyReference.cache
+C:\Users\shubhamp.GIST\Documents\GitHub\identitymanager\API_Sample\obj\Debug\netcoreapp1.1\API_Sample.csproj.CoreCompileInputs.cache
+C:\Users\shubhamp.GIST\Documents\GitHub\identitymanager\API_Sample\obj\Debug\netcoreapp1.1\API_Sample.AssemblyInfoInputs.cache
+C:\Users\shubhamp.GIST\Documents\GitHub\identitymanager\API_Sample\obj\Debug\netcoreapp1.1\API_Sample.AssemblyInfo.cs
+C:\Users\shubhamp.GIST\Documents\GitHub\identitymanager\API_Sample\bin\Debug\netcoreapp1.1\API_Sample.pdb
+C:\Users\shubhamp.GIST\Documents\GitHub\identitymanager\API_Sample\bin\Debug\netcoreapp1.1\Constants.dll
+C:\Users\shubhamp.GIST\Documents\GitHub\identitymanager\API_Sample\bin\Debug\netcoreapp1.1\Constants.pdb
+C:\Users\shubhamp.GIST\Documents\GitHub\identitymanager\API_Sample\obj\Debug\netcoreapp1.1\API_Sample.dll
+C:\Users\shubhamp.GIST\Documents\GitHub\identitymanager\API_Sample\obj\Debug\netcoreapp1.1\API_Sample.pdb

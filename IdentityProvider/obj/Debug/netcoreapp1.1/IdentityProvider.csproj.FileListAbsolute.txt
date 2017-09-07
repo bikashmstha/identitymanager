@@ -13,9 +13,9 @@ C:\Users\shubhamp.GIST\Documents\GitHub\identitymanager\IdentityProvider\bin\Deb
 C:\Users\shubhamp.GIST\Documents\GitHub\identitymanager\IdentityProvider\bin\Debug\netcoreapp1.1\IdentityProvider.runtimeconfig.dev.json
 C:\Users\shubhamp.GIST\Documents\GitHub\identitymanager\IdentityProvider\bin\Debug\netcoreapp1.1\IdentityProvider.dll
 C:\Users\shubhamp.GIST\Documents\GitHub\identitymanager\IdentityProvider\bin\Debug\netcoreapp1.1\IdentityProvider.pdb
-C:\Users\shubhamp.GIST\Documents\GitHub\identitymanager\IdentityProvider\obj\Debug\netcoreapp1.1\IdentityProvider.csprojResolveAssemblyReference.cache
 C:\Users\shubhamp.GIST\Documents\GitHub\identitymanager\IdentityProvider\obj\Debug\netcoreapp1.1\IdentityProvider.csproj.CoreCompileInputs.cache
 C:\Users\shubhamp.GIST\Documents\GitHub\identitymanager\IdentityProvider\obj\Debug\netcoreapp1.1\IdentityProvider.AssemblyInfoInputs.cache
 C:\Users\shubhamp.GIST\Documents\GitHub\identitymanager\IdentityProvider\obj\Debug\netcoreapp1.1\IdentityProvider.AssemblyInfo.cs
 C:\Users\shubhamp.GIST\Documents\GitHub\identitymanager\IdentityProvider\obj\Debug\netcoreapp1.1\IdentityProvider.dll
 C:\Users\shubhamp.GIST\Documents\GitHub\identitymanager\IdentityProvider\obj\Debug\netcoreapp1.1\IdentityProvider.pdb
+C:\Users\shubhamp.GIST\Documents\GitHub\identitymanager\IdentityProvider\obj\Debug\netcoreapp1.1\IdentityProvider.csprojResolveAssemblyReference.cache

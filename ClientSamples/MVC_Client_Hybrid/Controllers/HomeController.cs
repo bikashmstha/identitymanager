@@ -32,13 +32,14 @@ namespace MvcHybrid.Controllers
         [Authorize]
         public async Task<IActionResult> CallApi()
         {
-            var token = await HttpContext.Authentication.GetTokenAsync("access_token");
+            var token = await HttpContext.Authentication.GetTokenAsync(OpenIdConnectParameterNames.AccessToken);
 
             var client = new HttpClient();
+            client.BaseAddress = new Uri(Constants.SampleApi);
             client.SetBearerToken(token);
             //client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", token);
 
-            var response = await client.GetStringAsync(Constants.SampleApi + "identity");
+            var response = await client.GetStringAsync("api/values");
             ViewBag.Json = JArray.Parse(response).ToString();
 
             return View();
@@ -49,8 +50,8 @@ namespace MvcHybrid.Controllers
             var disco = await DiscoveryClient.GetAsync(Constants.Authority);
             if (disco.IsError) throw new Exception(disco.Error);
 
-            var tokenClient = new TokenClient(disco.TokenEndpoint, "mvc.hybrid", "secret");
-            var rt = await HttpContext.Authentication.GetTokenAsync("refresh_token");
+            var tokenClient = new TokenClient(disco.TokenEndpoint, "MVC_Client_Hybrid_Client_ID", "secret");
+            var rt = await HttpContext.Authentication.GetTokenAsync(OpenIdConnectParameterNames.RefreshToken);
             var tokenResult = await tokenClient.RequestRefreshTokenAsync(rt);
 
             if (!tokenResult.IsError)
